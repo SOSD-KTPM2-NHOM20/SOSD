@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('Trang-chu',function(){
-	return view('client.index');
+	return view('home');
 })->name('index');
 //admin_trangchu
 Route::get('admin',function(){
